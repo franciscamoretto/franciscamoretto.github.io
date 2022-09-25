@@ -5,6 +5,10 @@ body {
   a {
 	text-decoration: none;
   }
+
+  .qatext{
+	font-size: 30px !important;
+  }
   
   .et-hero-tabs,
   .et-slide {
