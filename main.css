@@ -85,7 +85,44 @@ body {
   .aboutContent > div {
 	margin-bottom: 24px;
   }
+
+  #projects {
+	display: grid;
+	grid-template-columns: minmax(300px, 1fr) 1fr 1fr;
+	grid-template-rows: 300px;
+	gap: 50px;
+	padding: 100px;
+  }
   
+  .project-item {
+	border-radius: 30px;
+	padding: 16px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .card-1 {
+	background-color: #e9e7fd;
+  }
+
+  .card-2 {
+	background-color: #fee4cb;
+  }
+
+  .card-3 {
+	background-color: #dbf6fd;
+  }
+
+  .bold {
+	font-weight: bold;
+  }
+  .mgBtm {
+	margin-bottom: 30px;
+  }
+
   @media (min-width: 800px) {
 	.et-hero-tabs h1,
   .et-slide h1 {
