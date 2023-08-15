@@ -10,6 +10,12 @@ body {
 	font-size: 30px !important;
   }
   
+  .contacticon{
+	font-size: 60px !important;
+	margin-bottom: 10px;
+  }
+
+  
   .et-hero-tabs,
   .et-slide {
 	display: flex;
